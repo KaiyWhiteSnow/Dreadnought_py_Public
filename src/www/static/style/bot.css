@@ -1,0 +1,6 @@
+.button{
+    display: flex;
+    flex-direction: column;
+    color: #fcfcfc;
+    margin: 10px;
+}

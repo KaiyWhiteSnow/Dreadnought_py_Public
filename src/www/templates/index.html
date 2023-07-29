@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/login.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/input.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/utils.css') }}">
+    <script src="https://kit.fontawesome.com/2aac6f8878.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="contLogin">
+        <form method="post">
+            <p class="center"><label for="username">Username</label></p>
+            <p class="center"><input type="text" name="username"></p>
+            <p class="center"><label for="username">Password</label></p>
+            <p class="center"><input type="password" name="password"></p>
+            <p class="center">
+                <input type="submit" value="Login">
+            </p>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+/*navbar*/
+.nav-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(38, 34, 44);
+}
+
+.nav-nav{
+    color: #fcfcfc;
+    display: flex;
+    flex-flow: row wrap;
+}
+#menu li {
+    display: inline;
+}   
